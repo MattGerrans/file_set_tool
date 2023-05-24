@@ -1,0 +1,16 @@
+{
+  "name" : "Heimdallr",
+  "description": "test description",
+  "norse_gods":  ["Odin", "Thor", "Loki", "Frigg", "Baldr", "Tyr", "Freyr", "Freyja", "Hel", "Heimdallr",
+                  "Njord", "Skadi", "Idunn", "Bragi", "Forseti", "Eir", "Gefjon", "Hodr", "Jord", "Kvasir",
+                  "Lofn", "Magni", "Mimir", "Modi", "Norns", "Ran", "Sif", "Sigyn", "Surt", "Ullr", "Vali",
+                  "Valkyries", "Var", "Vidar"],
+  "greek_gods": ["Zeus", "Hera", "Poseidon", "Demeter", "Athena", "Apollo", "Artemis", "Ares", "Aphrodite",
+    "Hephaestus", "Hermes", "Dionysus", "Hestia", "Hades", "Persephone", "Eros", "Nike", "Nemesis", "Iris",
+    "Janus", "Chaos", "Gaea", "Uranus", "Cronus", "Rhea", "Atlas", "Hyperion", "Prometheus", "Epimetheus",
+    "Mnemosyne", "Themis", "Tethys", "Oceanus", "Phoebe", "Theia", "Selene", "Eos"],
+  "roman_gods": ["Jupiter", "Juno", "Neptune", "Pluto", "Ceres", "Vesta", "Mars", "Venus", "Mercury", "Diana",
+    "Apollo", "Minerva", "Bacchus", "Vulcan", "Saturn", "Faunus", "Janus", "Mithras", "Sol Invictus", "Ops",
+    "Luna", "Proserpina", "Fortuna", "Bellona", "Victoria", "Libertas", "Pax", "Fides", "Terminus", "Quirinus",
+    "Mater Matuta", "Carmenta", "Lares", "Genius", "Gallus", "Priapus"]
+}

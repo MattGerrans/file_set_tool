@@ -1,0 +1,17 @@
+{
+    "name": "FST Test 1",
+    "description": "Test copying files.",
+    "source_directory": "c:\\code\\Python\\projects\\file_set_tool\\test_dirs\\test1\\source",
+    "dest_directory":   "c:\\code\\Python\\projects\\file_set_tool\\test_dirs\\test1\\dest",
+    "files": [
+        "1\\dummy_1.py",
+        "1\\a\\dummy_1_a.py",
+        "2\\dummy_2.py",
+        "2\\x\\dummy_2_x.py",
+        "2\\y\\dummy_2_y.py",
+        "2\\z\\dummy_2_z.py"
+    ],
+    "transmogrifications": [
+        { "from" : "Dummy", "to": "Smarty", "regex": false, "file_specific": null }
+    ]
+}

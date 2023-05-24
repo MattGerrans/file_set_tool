@@ -1,0 +1,30 @@
+[tool.poetry]
+name = "file_set_tool"
+version = "0.1.2"
+description = ""
+authors = ["Matt Gerrans <matt.gerrans@outlook.com>"]
+readme = "README.md"
+keywords = ["set", "files", "copy", "transform", "git"]
+classifiers = [
+    "Topic :: Software Development :: Build Tools"
+]
+# Hmm...
+# packages = [ { include = "serializers", from ="src" } ]
+
+[tool.poetry.scripts]
+file_set_tool = "file_set_tool.main:main"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+munch = "^2.5.0"
+ruamel-yaml = "^0.17.21"
+toml = "^0.10.2"
+colorama = "^0.4.6"
+
+[tool.poetry.dev-dependencies]
+colorama = "^0.4.4"
+pytest = "^7.3.1"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

@@ -1,0 +1,39 @@
+echo -e "\033[31mStarting file set tool\033[0m"
+
+function make_dir() {
+  directory=$1
+  if [ ! -d "$directory" ]; then
+    mkdir $directory
+  fi
+  }
+
+print_dir_content() {
+    # Get the directory as the first argument
+    dir="$1"
+
+    # Loop over all files in the directory
+    for file in "$dir"/*
+    do
+        # Print the directory name in green
+        echo -e "\033[32mDirectory: $dir\033[0m"
+
+        # Print the file content in cyan
+        echo -e "\033[36mFile Content: $file\033[0m"
+        cat "$file"
+
+        # Print an empty line
+        echo
+    done
+}
+
+make_dir temp/fst_test
+make_dir temp/fst_test/src
+make_dir temp/fst_test/src/1
+
+fsp_path=/mnt/c/code/python/projects/file_set_tool/src
+# add that to path or to pythonpath?
+
+python3 /mnt/c/code/python/projects/file_set_tool/src/file_set_tool.py "$@"
+
+echo Summary of results:
+print_dir_content ~/temp/fst_test/dest/1

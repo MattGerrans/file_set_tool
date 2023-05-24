@@ -1,0 +1,15 @@
+{
+  "name": "TEST_GIT",
+  "description": "DESCRIPTION",
+  "source_directory": "c:\\src\\GitHub\\command-line-api",
+  "dest_directory": "c:\\code\\Python\\projects\\file_set_tool\\test_dirs\\test2\\dest",
+  "files": [
+    "src/Common/ArgumentBuilder.cs",
+    "git_status.py",
+    "src/Common/added.cs",
+    "info.json",
+    "info.toml",
+    "info.yaml"
+  ],
+  "transmogrifications": []
+}
